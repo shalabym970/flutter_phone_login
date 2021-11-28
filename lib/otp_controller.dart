@@ -25,7 +25,8 @@ class _OTPControllerState extends State<OTPController> {
       color: Colors.blue,
       borderRadius: BorderRadius.circular(10),
       border: Border.all(color: Colors.grey));
-  @overridek
+
+  @override
   void initState() {
     super.initState();
     verifyPhone();
